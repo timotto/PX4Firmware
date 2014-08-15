@@ -407,6 +407,14 @@ dsm_decode(hrt_abstime frame_time, uint16_t *values, uint16_t *num_values)
 
 		case 2:
 			channel = 1;
+			break;
+
+		case 5:
+			channel = 6;
+			break;
+
+		case 6:
+			channel = 5;
 
 		default:
 			break;
